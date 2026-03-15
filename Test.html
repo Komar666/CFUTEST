@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section class="hero" aria-label="КФУ">
+  <div class="hero__stage">
+    <!-- Одна цельная картинка (фон + мужчина) -->
+    <img class="hero__bg" src="Group 8.png" alt="КФУ">
+
+    <div class="leaves" aria-hidden="true">
+  <span class="leaf l1"></span>
+  <span class="leaf l2"></span>
+  <span class="leaf l3"></span>
+  <span class="leaf l4"></span>
+  <span class="leaf l5"></span>
+  <span class="leaf l6"></span>
+  <span class="leaf l7"></span>
+  <span class="leaf l8"></span>
+    </div>
+
+  <div class="hero__navwrap" aria-label="Навигация">
+  <button class="hero__burger" type="button" aria-expanded="false" aria-controls="heroMenu">
+    <span class="hero__burger-lines" aria-hidden="true"></span>
+    <span class="hero__burger-text">Меню</span>
+  </button>
+
+  <nav class="hero__nav" id="heroMenu">
+    <a class="hero__nav-btn" href="#schedule">Расписание</a>
+    <a class="hero__nav-btn" href="#applicants">Абитуриентам</a>
+    <a class="hero__nav-btn" href="#students">Студентам</a>
+    <a class="hero__nav-btn" href="#staff">Работникам</a>
+    <a class="hero__nav-btn" href="#priority2030">Приоритет 2030</a>
+    <a class="hero__nav-btn" href="#olympiads">Олимпиады</a>
+  </nav>
+</div>
+
+    <div class="hero__content">
+      <img class="hero__crest" src="cfu.png" alt="Герб университета">
+
+      <h1 class="hero__title">
+        <span class="t1">КРЫМСКИЙ</span>
+        <span class="t2">ФЕДЕРАЛЬНЫЙ УНИВЕРСИТЕТ</span>
+      </h1>
+
+      <p class="hero__im">им. В. И. Вернадского</p>
+
+      <p class="hero__subtitle">
+        Крупнейшее высшее учебное заведение Республики Крым, входит в топ 10
+        федеральных университетов РФ
+      </p>
+
+      <a class="hero__btn" href="#admission">УЗНАТЬ БОЛЬШЕ О ПОСТУПЛЕНИИ</a>
+    </div>
+  </div>
+</section>
+
+<section class="admission-steps" id="admission">
+  <div class="admission-steps__container">
+    <header class="admission-steps__head">
+      <img class="admission-steps__prof" src="V.png" alt="" aria-hidden="true">
+      <h2 class="admission-steps__title">КАК К НАМ ПОСТУПИТЬ</h2>
+      <p class="admission-steps__lead">Всего 3 шага до подачи заявления: Зарегистрируйтесь, загрузите документы и отслеживайте статус.</p>
+    </header>
+
+    <div class="admission-steps__grid">
+        <article class="step-card">
+        <h3 class="step-card__title">СРОКИ<br>ПРИЕМА</h3>
+        <img class="step-card__icon" src="colck.png" alt="">
+        <a class="step-card__btn" href="#dates">ПОДРОБНЕЕ</a>
+      </article>
+
+      <article class="step-card">
+        <h3 class="step-card__title">НЕОБХОДИМЫЕ<br>ДОКУМЕНТЫ</h3>
+        <img class="step-card__icon" src="imagep.png" alt="">
+        <a class="step-card__btn" href="#docs">ПОДРОБНЕЕ</a>
+      </article>
+
+      <article class="step-card">
+        <h3 class="step-card__title">МИНИМАЛЬНЫЕ<br>БАЛЛЫ</h3>
+        <img class="step-card__icon" src="imagemedal.png" alt="">
+        <a class="step-card__btn" href="#scores">ПОДРОБНЕЕ</a>
+      </article>
+
+      <article class="step-card">
+        <h3 class="step-card__title">СТОИМОСТЬ<br>ОБУЧЕНИЯ</h3>
+        <img class="step-card__icon" src="coin.png" alt="">
+        <a class="step-card__btn" href="#price">ПОДРОБНЕЕ</a>
+      </article>
+    </div>
+    <!-- НОВОЕ: кнопка под карточками -->
+    <div class="admission-steps__cta">
+      <a class="admission-steps__applybtn" href="#apply">ПОДАТЬ ЗАЯВКУ</a>
+    </div>
+  </div>
+</section>
+
+<section class="programs" id="programs">
+  <div class="programs__container">
+    <div class="programs__layout">
+      <!-- LEFT -->
+      <div class="programs__left">
+        <h2 class="programs__title">ОБРАЗОВАТЕЛЬНЫЕ<br>ПРОГРАММЫ</h2>
+        <p class="programs__text">
+          Узнайте о разных образовательных программах нашего университета и выберите свое предназначение.
+        </p>
+
+        <img class="programs__prof" src="p.png" alt="">
+      </div>
+
+      <!-- RIGHT -->
+      <div class="programs__right">
+        <div class="programs__grid">
+          <article class="prog-card">
+            <div class="prog-card__media">
+              <img class="prog-card__img" src="1.png" alt="">
+            </div>
+            <div class="prog-card__body">
+              <h3 class="prog-card__name">ПРОГРАММНАЯ<br>ИНЖЕНЕРИЯ</h3>
+              <div class="prog-card__code">09.03.04</div>
+            </div>
+          </article>
+
+          <article class="prog-card">
+            <div class="prog-card__media">
+              <img class="prog-card__img" src="2.png" alt="">
+            </div>
+            <div class="prog-card__body">
+              <h3 class="prog-card__name">ЮРИСПРУДЕНЦИЯ</h3>
+              <div class="prog-card__code">09.03.04</div>
+            </div>
+          </article>
+
+          <article class="prog-card">
+            <div class="prog-card__media">
+              <img class="prog-card__img" src="3.png" alt="">
+            </div>
+            <div class="prog-card__body">
+              <h3 class="prog-card__name">БИОЛОГИЯ</h3>
+              <div class="prog-card__code">09.03.04</div>
+            </div>
+          </article>
+
+          <article class="prog-card">
+            <div class="prog-card__media">
+              <img class="prog-card__img" src="4.png" alt="">
+            </div>
+            <div class="prog-card__body">
+              <h3 class="prog-card__name">АРХИТЕКТУРА</h3>
+              <div class="prog-card__code">09.03.04</div>
+            </div>
+          </article>
+        </div>
+
+        <a class="programs__more" href="#more-programs">УЗНАТЬ БОЛЬШЕ</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rector" id="rector">
+  <div class="rector__container">
+    <div class="rector__grid">
+      <!-- left: photo -->
+      <div class="rector__photo">
+        <img class="rector__img" src="rector.png" alt="Фото ректора">
+      </div>
+
+      <!-- right: text -->
+      <div class="rector__content">
+        <h2 class="rector__name">КУРЬЯНОВ<br>ВЛАДИМИР<br>ОЛЕГОВИЧ</h2>
+        <div class="rector__role">Исполняющий обязанности ректора</div>
+
+        <div class="rector__text">
+          <p>
+           Крымский Федеральный Университет имени В.И. Вернадского — это крупнейший образовательный и научный центр Крыма, основанный на лучших традициях российской и международной академической культуры. Университет объединяет десятки образовательных учреждений, исследовательских институтов и инновационных центров, обеспечивая современное и качественное образование по широкому спектру направлений.
+          </p>
+          <p>
+            Мы гордимся многолетней историей и именами выдающихся ученых, преподавателей и выпускников, которые внесли значительный вклад в развитие науки, образования и культуры. Наша миссия — готовить специалистов, способных решать задачи современного мира, сочетая профессионализм, творческий подход и высокие моральные принципы.
+          </p>
+          <p>
+            В КФУ обучаются студенты из разных регионов России и мира, что делает университет площадкой для культурного обмена и дружбы народов. Мы стремимся создать комфортную и вдохновляющую среду для учебы, научных исследований и личностного развития каждого студента.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rector__quote">
+      <img class="rector__feather" src="brush.png" alt="" aria-hidden="true">
+      <p class="rector__quote-text">
+        Добро пожаловать в Крымский Федеральный Университет – университет, где традиции встречаются с инновациями!
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="stats" id="stats">
+  <div class="stats__container">
+    <div class="stats__grid">
+      <article class="stat-card">
+        <div class="stat-card__photo">
+          <img src="Rectangle 27.png" alt="">
+          <span class="stat-card__flag" aria-hidden="true"></span>
+        </div>
+        <div class="stat-card__badge">36676</div>
+        <h3 class="stat-card__title">СТУДЕНТОВ<br>ЕЖЕГОДНО</h3>
+      </article>
+
+      <article class="stat-card">
+        <div class="stat-card__photo">
+          <img src="Rectangle 28.png" alt="">
+          <span class="stat-card__flag" aria-hidden="true"></span>
+        </div>
+        <div class="stat-card__badge">121</div>
+        <h3 class="stat-card__title">НАПРАВЛЕНИЙ<br>ПОДГОТОВКИ</h3>
+      </article>
+
+      <article class="stat-card">
+        <div class="stat-card__photo">
+          <img src="Rectangle 29.png" alt="">
+          <span class="stat-card__flag" aria-hidden="true"></span>
+        </div>
+        <div class="stat-card__badge">12</div>
+        <h3 class="stat-card__title">ФИЛИАЛОВ<br>ВУЗА</h3>
+      </article>
+
+      <article class="stat-card">
+        <div class="stat-card__photo">
+          <img src="Rectangle 30.png" alt="">
+          <span class="stat-card__flag" aria-hidden="true"></span>
+        </div>
+        <div class="stat-card__badge">5527</div>
+        <h3 class="stat-card__title">БЮДЖЕТНЫХ<br>МЕСТ</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="support" id="support">
+
+  <div class="support__container">
+    <h2 class="support__title">УСЛОВИЯ ОБУЧЕНИЯ<br>И ПОДДЕРЖКА</h2>
+
+  <div class="support__stripe" aria-hidden="true">
+    <img class="support__stripe-img" src="line.png" alt="">
+  </div>
+    <div class="support__row">
+      <article class="support-card">
+        <img class="support-card__img" src="house.png" alt="Общежитие">
+        <h3 class="support-card__name">ОБЩЕЖИТИЕ</h3>
+        <p class="support-card__text">Комфортные условия<br>проживания в кампусах</p>
+        <a class="support-card__btn" href="#">ПРАВИЛА ЗАСЕЛЕНИЯ</a>
+      </article>
+
+      <article class="support-card">
+        <img class="support-card__img support__stud" src="boy.png" alt="Бюджет">
+        <h3 class="support-card__name">БЮДЖЕТ</h3>
+        <p class="support-card__text">Ежегодно выделяется<br>20000 тысяч бюджетных мест</p>
+        <a class="support-card__btn" href="#">УЗНАТЬ ИНФОРМАЦИЮ</a>
+      </article>
+
+      <article class="support-card">
+        <img class="support-card__img support__stud" src="money.png" alt="Стипендия">
+        <h3 class="support-card__name">СТИПЕНДИЯ</h3>
+        <p class="support-card__text">Академические, социальные и<br>повышенные стипендии</p>
+        <a class="support-card__btn" href="#">УЗНАТЬ БОЛЬШЕ</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<script>
+(() => {
+  const wrap = document.querySelector('.hero__navwrap');
+  const btn = document.querySelector('.hero__burger');
+  const menu = document.querySelector('#heroMenu');
+  if (!wrap || !btn || !menu) return;
+
+  const close = () => {
+    wrap.classList.remove('is-open');
+    btn.setAttribute('aria-expanded', 'false');
+  };
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = wrap.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!wrap.contains(e.target)) close();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') close();
+  });
+
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', close));
+})();
+</script>
+
+
+</body>
+</html>
