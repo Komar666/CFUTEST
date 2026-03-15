@@ -1097,10 +1097,6 @@ width: 100%;
   .stats__grid{
     grid-template-columns: repeat(2, minmax(240px, 1fr));
   }
- 
-.support__stud{
-  margin-top:0px;
-}
 }
 
 /* адаптив */
@@ -1119,7 +1115,9 @@ width: 100%;
   .support-card{
     width: min(560px, 100%);
   }
-  
+  .support__stud{
+  margin-top:0px;
+  }
 }
 
 /* ===== Mobile ===== */
