@@ -655,21 +655,6 @@ body{
   justify-self: start;
 }
 
-/* “дымка” вокруг фото как в макете */
-.rector__photo::before{
-  content:"";
-  position: absolute;
-  inset: -40px;
-  background: radial-gradient(
-    55% 55% at 50% 45%,
-    rgba(255,255,255,0.96) 0%,
-    rgba(255,255,255,0.82) 45%,
-    rgba(255,255,255,0.00) 100%
-  );
-  pointer-events: none;
-  z-index: 0;
-}
-
 .rector__img{
 width: 100%;
   height: auto;
