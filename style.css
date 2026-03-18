@@ -919,9 +919,6 @@ width: 100%;
   justify-content: space-between;
   gap: 44px;
   align-items: flex-start;
-
-  /* резерв места, чтобы полоса не залезала на текст */
-  padding-bottom: 40px;
 }
 
 .support-card{
@@ -982,7 +979,7 @@ width: 100%;
 /* СОБЫТИЯ */
 
 .events{
-  padding: 80px 0 90px;
+  padding: 80px 0 80px;
   background: #fff;
 }
 
@@ -1391,8 +1388,6 @@ width: 100%;
   transform: translateY(-1px);
 }
 
-
-
 /* Сама картинка-иконка */
 .contact__icon img{
   width: 84px;        /* подгони под свои файлы */
@@ -1407,6 +1402,7 @@ width: 100%;
   opacity: .95;
   max-width: 320px;
 }
+
 
 /* падение вниз + снос по X (--dx) */
 @keyframes leaf-fall{
@@ -1532,7 +1528,6 @@ margin-top: 50px;
 
  .programs{
     height: auto;
-    padding: 40px 0 56px;
   }
 
   .programs__container{
